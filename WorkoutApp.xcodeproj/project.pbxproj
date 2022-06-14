@@ -10,9 +10,20 @@
 		2F97ABC5D95BCF6691E51A1D /* Pods_WorkoutApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32394680880F335D15171CA1 /* Pods_WorkoutApp.framework */; };
 		3C4708C02858716C00A7B79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708BF2858716C00A7B79B /* AppDelegate.swift */; };
 		3C4708C22858716C00A7B79B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708C12858716C00A7B79B /* SceneDelegate.swift */; };
-		3C4708C42858716C00A7B79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708C32858716C00A7B79B /* ViewController.swift */; };
+		3C4708C42858716C00A7B79B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708C32858716C00A7B79B /* MainTabBarController.swift */; };
 		3C4708C92858717200A7B79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4708C82858717200A7B79B /* Assets.xcassets */; };
 		3C4708CC2858717200A7B79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4708CA2858717200A7B79B /* LaunchScreen.storyboard */; };
+		3C4708DD285886C700A7B79B /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708D5285886C700A7B79B /* UILabel + Extension.swift */; };
+		3C4708DE285886C700A7B79B /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708D6285886C700A7B79B /* UIFont + Extension.swift */; };
+		3C4708DF285886C700A7B79B /* Int + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708D7285886C700A7B79B /* Int + Extension.swift */; };
+		3C4708E0285886C700A7B79B /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708D8285886C700A7B79B /* UIColor + Extension.swift */; };
+		3C4708E1285886C700A7B79B /* UITextField + Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708D9285886C700A7B79B /* UITextField + Extansion.swift */; };
+		3C4708E2285886C700A7B79B /* UIView + Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708DA285886C700A7B79B /* UIView + Extansion.swift */; };
+		3C4708E3285886C700A7B79B /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708DB285886C700A7B79B /* UIStackView + Extension.swift */; };
+		3C4708E4285886C700A7B79B /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708DC285886C700A7B79B /* Date + Extension.swift */; };
+		3C4708E62858877D00A7B79B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E52858877D00A7B79B /* MainViewController.swift */; };
+		3C4708E8285887AA00A7B79B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E7285887AA00A7B79B /* StatisticViewController.swift */; };
+		3C4708EA285887B900A7B79B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E9285887B900A7B79B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +31,21 @@
 		3C4708BC2858716C00A7B79B /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4708BF2858716C00A7B79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4708C12858716C00A7B79B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C4708C32858716C00A7B79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4708C32858716C00A7B79B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		3C4708C82858717200A7B79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4708CB2858717200A7B79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C4708CD2858717200A7B79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4708D5285886C700A7B79B /* UILabel + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		3C4708D6285886C700A7B79B /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		3C4708D7285886C700A7B79B /* Int + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int + Extension.swift"; sourceTree = "<group>"; };
+		3C4708D8285886C700A7B79B /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		3C4708D9285886C700A7B79B /* UITextField + Extansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField + Extansion.swift"; sourceTree = "<group>"; };
+		3C4708DA285886C700A7B79B /* UIView + Extansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extansion.swift"; sourceTree = "<group>"; };
+		3C4708DB285886C700A7B79B /* UIStackView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		3C4708DC285886C700A7B79B /* Date + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		3C4708E52858877D00A7B79B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3C4708E7285887AA00A7B79B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		3C4708E9285887B900A7B79B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A0C9B31B12789A942E177AFE /* Pods-WorkoutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.release.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.release.xcconfig"; sourceTree = "<group>"; };
 		A371A6F3A80AB0208058D07B /* Pods-WorkoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,12 +85,39 @@
 			children = (
 				3C4708BF2858716C00A7B79B /* AppDelegate.swift */,
 				3C4708C12858716C00A7B79B /* SceneDelegate.swift */,
-				3C4708C32858716C00A7B79B /* ViewController.swift */,
+				3C4708C32858716C00A7B79B /* MainTabBarController.swift */,
+				3C4708E52858877D00A7B79B /* MainViewController.swift */,
+				3C4708E7285887AA00A7B79B /* StatisticViewController.swift */,
+				3C4708E9285887B900A7B79B /* ProfileViewController.swift */,
 				3C4708C82858717200A7B79B /* Assets.xcassets */,
 				3C4708CA2858717200A7B79B /* LaunchScreen.storyboard */,
 				3C4708CD2858717200A7B79B /* Info.plist */,
+				3C4708D3285886C700A7B79B /* Extension */,
 			);
 			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		3C4708D3285886C700A7B79B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C4708D4285886C700A7B79B /* UIKit */,
+				3C4708DC285886C700A7B79B /* Date + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C4708D4285886C700A7B79B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C4708D5285886C700A7B79B /* UILabel + Extension.swift */,
+				3C4708D6285886C700A7B79B /* UIFont + Extension.swift */,
+				3C4708D7285886C700A7B79B /* Int + Extension.swift */,
+				3C4708D8285886C700A7B79B /* UIColor + Extension.swift */,
+				3C4708D9285886C700A7B79B /* UITextField + Extansion.swift */,
+				3C4708DA285886C700A7B79B /* UIView + Extansion.swift */,
+				3C4708DB285886C700A7B79B /* UIStackView + Extension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		93FB185482748F2F37FC3E02 /* Frameworks */ = {
@@ -85,7 +134,6 @@
 				A371A6F3A80AB0208058D07B /* Pods-WorkoutApp.debug.xcconfig */,
 				A0C9B31B12789A942E177AFE /* Pods-WorkoutApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,8 +251,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4708C42858716C00A7B79B /* ViewController.swift in Sources */,
+				3C4708E0285886C700A7B79B /* UIColor + Extension.swift in Sources */,
+				3C4708E4285886C700A7B79B /* Date + Extension.swift in Sources */,
+				3C4708E2285886C700A7B79B /* UIView + Extansion.swift in Sources */,
+				3C4708E62858877D00A7B79B /* MainViewController.swift in Sources */,
+				3C4708EA285887B900A7B79B /* ProfileViewController.swift in Sources */,
+				3C4708DE285886C700A7B79B /* UIFont + Extension.swift in Sources */,
+				3C4708E3285886C700A7B79B /* UIStackView + Extension.swift in Sources */,
+				3C4708DF285886C700A7B79B /* Int + Extension.swift in Sources */,
+				3C4708E1285886C700A7B79B /* UITextField + Extansion.swift in Sources */,
+				3C4708E8285887AA00A7B79B /* StatisticViewController.swift in Sources */,
+				3C4708C42858716C00A7B79B /* MainTabBarController.swift in Sources */,
 				3C4708C02858716C00A7B79B /* AppDelegate.swift in Sources */,
+				3C4708DD285886C700A7B79B /* UILabel + Extension.swift in Sources */,
 				3C4708C22858716C00A7B79B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
