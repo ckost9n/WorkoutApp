@@ -24,6 +24,8 @@
 		3C4708E62858877D00A7B79B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E52858877D00A7B79B /* MainViewController.swift */; };
 		3C4708E8285887AA00A7B79B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E7285887AA00A7B79B /* StatisticViewController.swift */; };
 		3C4708EA285887B900A7B79B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4708E9285887B900A7B79B /* ProfileViewController.swift */; };
+		3C543C01286B2B6B00BCB31D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C543BFF286B2B6B00BCB31D /* Roboto-Medium.ttf */; };
+		3C543C02286B2B6B00BCB31D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C543C00286B2B6B00BCB31D /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		3C4708E52858877D00A7B79B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3C4708E7285887AA00A7B79B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		3C4708E9285887B900A7B79B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3C543BFF286B2B6B00BCB31D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3C543C00286B2B6B00BCB31D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		A0C9B31B12789A942E177AFE /* Pods-WorkoutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.release.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.release.xcconfig"; sourceTree = "<group>"; };
 		A371A6F3A80AB0208058D07B /* Pods-WorkoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +93,7 @@
 				3C4708E52858877D00A7B79B /* MainViewController.swift */,
 				3C4708E7285887AA00A7B79B /* StatisticViewController.swift */,
 				3C4708E9285887B900A7B79B /* ProfileViewController.swift */,
-				3C4708C82858717200A7B79B /* Assets.xcassets */,
-				3C4708CA2858717200A7B79B /* LaunchScreen.storyboard */,
-				3C4708CD2858717200A7B79B /* Info.plist */,
+				3C543BFD286B2A2D00BCB31D /* Resources */,
 				3C4708D3285886C700A7B79B /* Extension */,
 			);
 			path = WorkoutApp;
@@ -118,6 +120,26 @@
 				3C4708DB285886C700A7B79B /* UIStackView + Extension.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		3C543BFD286B2A2D00BCB31D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C543BFE286B2AD600BCB31D /* Fonts */,
+				3C4708C82858717200A7B79B /* Assets.xcassets */,
+				3C4708CA2858717200A7B79B /* LaunchScreen.storyboard */,
+				3C4708CD2858717200A7B79B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C543BFE286B2AD600BCB31D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C543C00286B2B6B00BCB31D /* Roboto-Bold.ttf */,
+				3C543BFF286B2B6B00BCB31D /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		93FB185482748F2F37FC3E02 /* Frameworks */ = {
@@ -199,6 +221,8 @@
 			files = (
 				3C4708CC2858717200A7B79B /* LaunchScreen.storyboard in Resources */,
 				3C4708C92858717200A7B79B /* Assets.xcassets in Resources */,
+				3C543C02286B2B6B00BCB31D /* Roboto-Bold.ttf in Resources */,
+				3C543C01286B2B6B00BCB31D /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +430,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQYPG8XK25;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -434,7 +458,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQYPG8XK25;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
